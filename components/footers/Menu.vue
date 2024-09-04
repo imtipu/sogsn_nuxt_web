@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-5 gap-3 py-6 px-3 md:px-6 lg:px-0">
+  <div class="grid grid-cols-1 lg:grid-cols-5 gap-3 py-6 px-3 md:px-6 lg:px-6">
     <div class="flex flex-col col-span-2">
       <h3 class="font-bold text-lg mb-2">SOGSN</h3>
       <p class="text-sm font-semibold">We believe in the power of play to foster creativity, problem-solving skills, and
