@@ -9,6 +9,9 @@ export const useMobileStore = defineStore({
     actions: {
         toggleMobileMenu() {
             this.mobileMenu = !this.mobileMenu
+        },
+        closeMobileMenu() {
+            this.mobileMenu = false
         }
     },
 

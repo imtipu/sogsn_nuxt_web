@@ -39,7 +39,7 @@ export default defineNuxtConfig({
         'nuxt-lodash',
         '@nuxtjs/seo',
         'nuxt-tiptap-editor',
-        '@formkit/auto-animate/nuxt',
+        // '@formkit/auto-animate/nuxt',
     ],
     build: {
         transpile: ['pinia-plugin-persistedstate'],
