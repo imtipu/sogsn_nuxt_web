@@ -24,13 +24,13 @@
 
       <ULink to="#"
              class="flex flex-col justify-center items-center bg-theme-orange-80 w-10 h-10 rounded-md border-2 border-theme-gray-10 ml-2">
-        <UIcon name="i-ic-outline-facebook" dynamic
+        <UIcon name="i-line-md-twitter-x" dynamic
                class="w-6 h-6"/>
       </ULink>
 
       <ULink to="#"
              class="flex flex-col justify-center items-center bg-theme-orange-80 w-10 h-10 rounded-md border-2 border-theme-gray-10 ml-2">
-        <UIcon name="i-ic-outline-facebook" dynamic
+        <UIcon name="i-mdi-linkedin" dynamic
                class="w-6 h-6"/>
       </ULink>
     </div>
