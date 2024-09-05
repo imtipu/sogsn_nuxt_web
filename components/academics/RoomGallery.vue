@@ -14,29 +14,27 @@
       </div>
     </UContainer>
     <UContainer
-        class="flex flex-col relative border-2 border-theme-gray-10 shadow-[4px_4px_0px_2px_#000] px-3 py-10 bg-white rounded-md mt-[150px] mb-16">
+      class="flex flex-col relative border-2 border-theme-gray-10 shadow-[4px_4px_0px_2px_#000] px-3 py-10 bg-white rounded-md mt-[150px] mb-16">
       <div class="absolute w-full mb-3 left-0 -top-[150px]">
-        <Swiper
-            :modules="[SwiperAutoplay]"
-            :slides-per-view="5"
-            :loop="true"
-            :autoplay="{
-              delay: 3000,
-            }">
-          <SwiperSlide v-for="i in 10" :key="i">
-            <div
-                class="flex flex-col justify-center items-center rounded-md overflow-hidden">
-              <img src="~/assets/images/academics/learn1.png" alt="Room Image" class="w-auto h-auto max-w-[230px]"/>
-            </div>
-          </SwiperSlide>
-        </Swiper>
+        <!-- <ClientOnly>
+          <Swiper :modules="[SwiperAutoplay]" :slides-per-view="5" :loop="true" :autoplay="{
+            delay: 3000,
+          }">
+            <SwiperSlide v-for="i in 10" :key="i">
+              <div class="flex flex-col justify-center items-center rounded-md overflow-hidden">
+                <img src="~/assets/images/academics/learn1.png" alt="Room Image" class="w-auto h-auto max-w-[230px]" />
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </ClientOnly> -->
+
       </div>
       <div class="flex flex-col">
         <div class="flex justify-between items-center mb-5">
           <h1 class="font-semibold text-lg mb-2">Classrooms</h1>
           <div class="flex items-center">
-            <UButton icon="i-heroicons-chevron-left"/>
-            <UButton icon="i-heroicons-chevron-right" class="ml-2"/>
+            <UButton icon="i-heroicons-chevron-left" />
+            <UButton icon="i-heroicons-chevron-right" class="ml-2" />
           </div>
         </div>
         <p class="text-sm font-medium">
