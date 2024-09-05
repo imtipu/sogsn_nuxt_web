@@ -6,7 +6,10 @@ useHead({
 
 <template>
   <UContainer>
-    <h1>Admission</h1>
+    <AdmissionIntro />
+  </UContainer>
+  <UContainer class="mt-10 lg:mt-16">
+    <AdmissionProcess />
   </UContainer>
 </template>
 
