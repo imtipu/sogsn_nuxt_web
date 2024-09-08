@@ -20,7 +20,8 @@ export default defineNuxtConfig({
 		'@nuxt/ui',
 		'@nuxtjs/color-mode',
 		'@pinia/nuxt',
-		'@pinia-plugin-persistedstate/nuxt',
+		// '@pinia-plugin-persistedstate/nuxt',
+		'pinia-plugin-persistedstate/nuxt',
 		'@nuxtjs/tailwindcss',
 		'@nuxt/image',
 		'@nuxtjs/robots',
@@ -38,9 +39,9 @@ export default defineNuxtConfig({
 		'nuxt-tiptap-editor',
 		// '@formkit/auto-animate/nuxt',
 	],
-	build: {
-		transpile: ['pinia-plugin-persistedstate'],
-	},
+	// build: {
+	// 	transpile: ['pinia-plugin-persistedstate'],
+	// },
 	googleFonts: {
 		families: {
 			Roboto: true,
