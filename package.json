@@ -30,12 +30,13 @@
     "nuxt-swiper": "^1.2.2",
     "nuxt-tiptap-editor": "^1.2.1",
     "pinia": "^2.2.2",
-    "vue": "^3.4.38"
-  },
-  "devDependencies": {
+    "pinia-plugin-persistedstate": "^4.0.0",
+    "vue": "^3.4.38",
     "@nuxtjs/color-mode": "^3.4.4",
-    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
     "nuxt-lodash": "^2.5.3",
     "sass": "^1.77.8"
+  },
+  "devDependencies": {
+
   }
 }
